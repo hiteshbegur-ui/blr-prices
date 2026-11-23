@@ -1,4 +1,4 @@
-name: Update prices
+.github/workflows/name: Update prices
 
 on:
   schedule:
