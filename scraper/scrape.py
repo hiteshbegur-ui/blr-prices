@@ -1,4 +1,4 @@
-scraper/"""
+"""
 Collects fruit & vegetable prices for Bengaluru from Zepto, Blinkit and Instamart
 and merges them into docs/data/prices.json (the file the web page reads).
 
