@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-23T16:49:10+00:00",
+ "updated_at": "2026-11-23T18:46:43+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -17,148 +17,20 @@
   },
   "instamart": {
    "ok": true,
-   "count": 11,
-   "scraped_at": "2026-11-23T16:49:10+00:00"
+   "count": 1,
+   "scraped_at": "2026-11-23T18:46:43+00:00"
   }
  },
  "items": [
   {
-   "name": "Black Grapes Sharad",
+   "name": "California Hass Mini Avocado",
    "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 95,
-    "unit": "200 g",
-    "unit_price": 475.0,
-    "unit_label": "kg",
-    "mrp": 115
-   }
-  },
-  {
-   "name": "Capsicum Tricolour",
-   "subcategory": "Exotics",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 111,
-    "unit": "3 Pieces",
-    "mrp": 139
-   }
-  },
-  {
-   "name": "Fresh Figs",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 61,
-    "unit": "250 g",
-    "unit_price": 244.0,
-    "unit_label": "kg",
-    "mrp": 76
-   }
-  },
-  {
-   "name": "Fresh Turmeric",
-   "subcategory": "Exotics",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 34,
-    "unit": "100 g",
-    "unit_price": 340.0,
-    "unit_label": "kg",
-    "mrp": 43
-   }
-  },
-  {
-   "name": "Imported Cherry",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 194,
-    "unit": "100 g",
-    "unit_price": 1940.0,
-    "unit_label": "kg",
-    "mrp": 274
-   }
-  },
-  {
-   "name": "Indian Raspberry",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 198,
-    "unit": "80 g",
-    "unit_price": 2475.0,
-    "unit_label": "kg",
-    "mrp": 248
-   }
-  },
-  {
-   "name": "Mahabaleshwar Cape Gooseberry",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 87,
-    "unit": "100 g",
-    "unit_price": 870.0,
-    "unit_label": "kg",
-    "mrp": 109
-   }
-  },
-  {
-   "name": "Mahabaleshwar Strawberry",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 172,
-    "unit": "1 Pack",
-    "mrp": 185
-   }
-  },
-  {
-   "name": "Ooty Blackberry",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 286,
-    "unit": "80 g",
-    "unit_price": 3575.0,
-    "unit_label": "kg",
-    "mrp": 358
-   }
-  },
-  {
-   "name": "Ooty Strawberry",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 170,
-    "unit": "180 g",
-    "unit_price": 944.4,
-    "unit_label": "kg",
-    "mrp": 213
-   }
-  },
-  {
-   "name": "Peeled Sweet Corn By Urban Harvest",
-   "subcategory": "Exotics",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 42,
-    "unit": "200 g",
-    "unit_price": 210.0,
-    "unit_label": "kg",
-    "mrp": 53
+    "price": 132,
+    "unit": null,
+    "mrp": 160
    }
   }
  ]
