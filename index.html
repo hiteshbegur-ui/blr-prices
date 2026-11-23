@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bengaluru Fruit & Veg Prices</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#1b1f24;--muted:#6b7280;--line:#e5e7eb;--best:#e7f6ec;--bestText:#146c2e;
+--zepto:#6d28d9;--blinkit:#b8860b;--instamart:#ea580c}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#171a21;--text:#eceff4;--muted:#9aa3b2;--line:#2a2f3a;--best:#12331d;--bestText:#7fe0a0}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:16px 16px 8px;max-width:1100px;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px}
+.sub{color:var(--muted);font-size:13px}
+.banner{max-width:1100px;margin:8px auto;padding:10px 14px;border-radius:8px;font-size:13px}
+.warn{background:#fff4d6;color:#7a5200}
+.controls{max-width:1100px;margin:0 auto;padding:8px 16px;display:grid;gap:8px;grid-template-columns:2fr 1fr 1fr 1fr}
+input,select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--text);font:inherit}
+.wrap{max-width:1100px;margin:8px auto 40px;padding:0 16px}
+.scroll{overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--card);max-height:75vh}
+table{border-collapse:separate;border-spacing:0;width:100%;min-width:640px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+thead th{position:sticky;top:0;background:var(--card);z-index:2;cursor:pointer;user-select:none;white-space:nowrap}
+th.plat{text-align:center;border-top:4px solid var(--c)}
+th.plat .n{font-weight:700;color:var(--c);font-size:15px}
+th.plat .t{font-weight:400;color:var(--muted);font-size:11px}
+td.name{font-weight:600;min-width:150px}
+td.name small{display:block;font-weight:400;color:var(--muted)}
+td.p{text-align:center;white-space:nowrap}
+td.p b{font-size:16px}
+td.p small{display:block;color:var(--muted);font-size:11px}
+td.best{background:var(--best);color:var(--bestText)}
+td.best small{color:var(--bestText)}
+td.na{color:var(--muted)}
+.arrow{font-size:11px;color:var(--muted)}
+.count{color:var(--muted);font-size:13px;margin:6px 2px}
+@media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}
+ td.name{position:sticky;left:0;background:var(--card);z-index:1}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Bengaluru Fruits &amp; Vegetables — Price Comparison</h1>
+  <div class="sub" id="updated">Loading…</div>
+</header>
+<div id="banners"></div>
+<div class="controls">
+  <input id="q" type="search" placeholder="Search article (e.g. tomato, apple)…" autocomplete="off">
+  <select id="sub"><option value="">All subcategories</option></select>
+  <select id="cheap">
+    <option value="">Cheapest at: any</option>
+    <option value="zepto">Cheapest at Zepto</option>
+    <option value="blinkit">Cheapest at Blinkit</option>
+    <option value="instamart">Cheapest at Instamart</option>
+  </select>
+  <select id="avail">
+    <option value="">All availability</option>
+    <option value="all3">Listed on all 3</option>
+    <option value="miss">Missing on any</option>
+  </select>
+</div>
+<div class="wrap">
+  <div class="count" id="count"></div>
+  <div class="scroll"><table>
+    <thead><tr id="head"></tr></thead>
+    <tbody id="body"></tbody>
+  </table></div>
+</div>
+<script>
+const PLATS=[["zepto","Zepto","--zepto"],["blinkit","Blinkit","--blinkit"],["instamart","Instamart","--instamart"]];
+let DATA=null, sortKey="name", sortDir=1;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtTime=iso=>iso?new Date(iso).toLocaleString([], {day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"never";
+
+// cheapest platform(s) for an item: compare per-kg/litre when every listed platform has it, else raw price
+function cheapest(it){
+  const have=PLATS.filter(([k])=>it[k]&&it[k].price!=null);
+  if(have.length<2)return [];
+  const labels=new Set(have.map(([k])=>it[k].unit_price!=null?it[k].unit_label:null));
+  const useUnit=labels.size===1&&!labels.has(null);
+  const val=k=>useUnit?it[k].unit_price:it[k].price;
+  const min=Math.min(...have.map(([k])=>val(k)));
+  return have.filter(([k])=>val(k)===min).map(([k])=>k);
+}
+function sortVal(it,key){
+  if(key==="name")return it.name.toLowerCase();
+  if(key==="subcategory")return (it.subcategory||"").toLowerCase();
+  const p=it[key];return p&&p.price!=null?p.price:Infinity*sortDir; // missing prices always last
+}
+function render(){
+  if(!DATA)return;
+  const q=$("q").value.trim().toLowerCase(), sub=$("sub").value, ch=$("cheap").value, av=$("avail").value;
+  let rows=DATA.items.filter(it=>{
+    if(q&&!it.name.toLowerCase().includes(q))return false;
+    if(sub&&it.subcategory!==sub)return false;
+    const n=PLATS.filter(([k])=>it[k]&&it[k].price!=null).length;
+    if(av==="all3"&&n<3)return false;
+    if(av==="miss"&&n===3)return false;
+    if(ch&&!cheapest(it).includes(ch))return false;
+    return true;
+  });
+  rows.sort((a,b)=>{const x=sortVal(a,sortKey),y=sortVal(b,sortKey);return (x<y?-1:x>y?1:0)*sortDir||a.name.localeCompare(b.name)});
+  $("count").textContent=`Showing ${rows.length} of ${DATA.items.length} articles`;
+  $("body").innerHTML=rows.map(it=>{
+    const best=cheapest(it);
+    const cells=PLATS.map(([k])=>{
+      const p=it[k];
+      if(!p||p.price==null)return `<td class="p na">—</td>`;
+      const per=p.unit_price!=null?` · ₹${p.unit_price}/${esc(p.unit_label)}`:"";
+      return `<td class="p ${best.includes(k)?"best":""}"><b>₹${p.price}</b><small>${esc(p.unit||"")}${per}</small></td>`;
+    }).join("");
+    return `<tr><td class="name">${esc(it.name)}</td><td>${esc(it.subcategory)}</td>${cells}</tr>`;
+  }).join("")||`<tr><td colspan="5" class="na" style="padding:24px;text-align:center">No articles match.</td></tr>`;
+}
+function head(){
+  const arrow=k=>sortKey===k?`<span class="arrow">${sortDir===1?"▲":"▼"}</span>`:"";
+  const st=(DATA&&DATA.platforms)||{};
+  $("head").innerHTML=`<th data-k="name">Article ${arrow("name")}</th><th data-k="subcategory">Subcategory ${arrow("subcategory")}</th>`+
+   PLATS.map(([k,n,c])=>`<th class="plat" data-k="${k}" style="--c:var(${c})"><div class="n">${n} ${arrow(k)}</div><div class="t">${st[k]?fmtTime(st[k].scraped_at):""}</div></th>`).join("");
+  document.querySelectorAll("#head th").forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k; if(sortKey===k)sortDir*=-1; else{sortKey=k;sortDir=1}
+    head();render();
+  });
+}
+function load(first){
+  fetch("data/prices.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+    DATA=d;
+    const subs=[...new Set(d.items.map(i=>i.subcategory).filter(Boolean))].sort();
+    const cur=$("sub").value;
+    $("sub").innerHTML=`<option value="">All subcategories</option>`+subs.map(s=>`<option ${s===cur?"selected":""}>${esc(s)}</option>`).join("");
+    $("updated").textContent=`Bengaluru${d.pincode?" ("+d.pincode+")":""} · last updated ${fmtTime(d.updated_at)} · refreshes every 2 hours`;
+    let b="";
+    if(d.sample)b+=`<div class="banner warn">Showing <b>sample data</b> — the live collector hasn't run yet.</div>`;
+    else if(Date.now()-new Date(d.updated_at)>3*3600e3)b+=`<div class="banner warn">Data is more than 3 hours old — the collector may have failed.</div>`;
+    const bad=PLATS.filter(([k])=>d.platforms&&d.platforms[k]&&!d.platforms[k].ok).map(p=>p[1]);
+    if(bad.length)b+=`<div class="banner warn">Last fetch failed for ${bad.join(", ")}; older prices are shown.</div>`;
+    $("banners").innerHTML=b;
+    head();render();
+  }).catch(()=>{if(first)$("updated").textContent="Could not load data."});
+}
+["q","sub","cheap","avail"].forEach(id=>$(id).addEventListener("input",render));
+load(true);setInterval(()=>load(false),5*60*1000);
+</script>
+</body>
+</html>
