@@ -1,13 +1,12 @@
 {
  "sample": false,
- "updated_at": "2026-11-24T00:44:51+00:00",
+ "updated_at": "2026-11-24T02:51:20+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null,
-   "blocked": true
+   "scraped_at": null
   },
   "blinkit": {
    "ok": false,
@@ -17,24 +16,11 @@
   },
   "instamart": {
    "ok": true,
-   "count": 18,
-   "scraped_at": "2026-11-24T00:44:51+00:00"
+   "count": 5,
+   "scraped_at": "2026-11-24T02:51:20+00:00"
   }
  },
  "items": [
-  {
-   "name": "Banana Hill",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 49,
-    "unit": "500 g",
-    "unit_price": 98.0,
-    "unit_label": "kg",
-    "mrp": 58
-   }
-  },
   {
    "name": "Banana Stem",
    "subcategory": "Exotics",
@@ -47,46 +33,8 @@
    }
   },
   {
-   "name": "Dried Apricots",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 308,
-    "unit": "200 g",
-    "unit_price": 1540.0,
-    "unit_label": "kg",
-    "mrp": 385
-   }
-  },
-  {
-   "name": "Get Veggies Shimla Apple",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 200,
-    "unit": "500 g",
-    "unit_price": 400.0,
-    "unit_label": "kg"
-   }
-  },
-  {
-   "name": "Ice Apple",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 154,
-    "unit": "200 g",
-    "unit_price": 770.0,
-    "unit_label": "kg",
-    "mrp": 188
-   }
-  },
-  {
    "name": "Imported Cherry",
-   "subcategory": "Fruits",
+   "subcategory": "Vegetables",
    "zepto": null,
    "blinkit": null,
    "instamart": {
@@ -98,14 +46,29 @@
    }
   },
   {
-   "name": "Kinnaur Apple Large",
+   "name": "Ooty Blackberry",
+   "subcategory": "Vegetables",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 286,
+    "unit": "80 g",
+    "unit_price": 3575.0,
+    "unit_label": "kg",
+    "mrp": 353
+   }
+  },
+  {
+   "name": "Ooty Strawberry",
    "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 108,
-    "unit": "2 Pieces",
-    "mrp": 130
+    "price": 170,
+    "unit": "180 g",
+    "unit_price": 944.4,
+    "unit_label": "kg",
+    "mrp": 208
    }
   },
   {
@@ -119,79 +82,6 @@
     "unit_price": 585.0,
     "unit_label": "kg",
     "mrp": 141
-   }
-  },
-  {
-   "name": "Premium Strawberry By Oh Fruits",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 299,
-    "unit": "160 g",
-    "unit_price": 1868.8,
-    "unit_label": "kg",
-    "mrp": 374
-   }
-  },
-  {
-   "name": "Sam Agri Peeled Pomegranate",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 79,
-    "unit": "100 g",
-    "unit_price": 790.0,
-    "unit_label": "kg",
-    "mrp": 99
-   }
-  },
-  {
-   "name": "Switch",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 115,
-    "unit": "1 Piece",
-    "mrp": 144
-   }
-  },
-  {
-   "name": "Very Berry Fruits Frozen Blueberry",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 270,
-    "unit": "200 g",
-    "unit_price": 1350.0,
-    "unit_label": "kg"
-   }
-  },
-  {
-   "name": "Westfalia Guacamole Spiced",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 181,
-    "unit": "95 g",
-    "unit_price": 1905.3,
-    "unit_label": "kg",
-    "mrp": 221
-   }
-  },
-  {
-   "name": "Zespri Kiwi Green",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 113,
-    "unit": "2 Pieces",
-    "mrp": 136
    }
   }
  ]
