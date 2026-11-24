@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-24T10:46:56+00:00",
+ "updated_at": "2026-11-24T12:55:56+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -16,62 +16,21 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-24T06:55:10+00:00"
+   "ok": true,
+   "count": 1,
+   "scraped_at": "2026-11-24T12:55:56+00:00"
   }
  },
  "items": [
   {
-   "name": "Imported Cherry",
+   "name": "Kiran Watermelon",
    "subcategory": "Vegetables",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 199,
-    "unit": "100 g",
-    "unit_price": 1990.0,
-    "unit_label": "kg",
-    "mrp": 249
-   }
-  },
-  {
-   "name": "Mahabaleshwar Cape Gooseberry",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 87,
-    "unit": "100 g",
-    "unit_price": 870.0,
-    "unit_label": "kg",
-    "mrp": 109
-   }
-  },
-  {
-   "name": "Ooty Blackberry",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 286,
-    "unit": "80 g",
-    "unit_price": 3575.0,
-    "unit_label": "kg",
-    "mrp": 358
-   }
-  },
-  {
-   "name": "Ooty Strawberry",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 170,
-    "unit": "180 g",
-    "unit_price": 944.4,
-    "unit_label": "kg",
-    "mrp": 213
+    "price": 176,
+    "unit": null,
+    "mrp": 220
    }
   }
  ]
