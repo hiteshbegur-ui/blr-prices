@@ -1,12 +1,13 @@
 {
  "sample": false,
- "updated_at": "2026-11-24T02:51:20+00:00",
+ "updated_at": "2026-11-24T04:54:28+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null
+   "scraped_at": null,
+   "blocked": true
   },
   "blinkit": {
    "ok": false,
@@ -16,22 +17,11 @@
   },
   "instamart": {
    "ok": true,
-   "count": 5,
-   "scraped_at": "2026-11-24T02:51:20+00:00"
+   "count": 4,
+   "scraped_at": "2026-11-24T04:54:28+00:00"
   }
  },
  "items": [
-  {
-   "name": "Banana Stem",
-   "subcategory": "Exotics",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 23,
-    "unit": "1 Piece",
-    "mrp": 25
-   }
-  },
   {
    "name": "Imported Cherry",
    "subcategory": "Vegetables",
@@ -42,7 +32,20 @@
     "unit": "100 g",
     "unit_price": 1990.0,
     "unit_label": "kg",
-    "mrp": 244
+    "mrp": 249
+   }
+  },
+  {
+   "name": "Mahabaleshwar Cape Gooseberry",
+   "subcategory": "Vegetables",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 87,
+    "unit": "100 g",
+    "unit_price": 870.0,
+    "unit_label": "kg",
+    "mrp": 109
    }
   },
   {
@@ -55,7 +58,7 @@
     "unit": "80 g",
     "unit_price": 3575.0,
     "unit_label": "kg",
-    "mrp": 353
+    "mrp": 358
    }
   },
   {
@@ -68,20 +71,7 @@
     "unit": "180 g",
     "unit_price": 944.4,
     "unit_label": "kg",
-    "mrp": 208
-   }
-  },
-  {
-   "name": "Oyster Mushroom Fresh",
-   "subcategory": "Exotics",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 117,
-    "unit": "200 g",
-    "unit_price": 585.0,
-    "unit_label": "kg",
-    "mrp": 141
+    "mrp": 213
    }
   }
  ]
