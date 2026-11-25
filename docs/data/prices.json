@@ -1,12 +1,13 @@
 {
  "sample": false,
- "updated_at": "2026-11-25T02:49:10+00:00",
+ "updated_at": "2026-11-25T04:57:07+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null
+   "scraped_at": null,
+   "blocked": true
   },
   "blinkit": {
    "ok": false,
@@ -17,7 +18,7 @@
   "instamart": {
    "ok": true,
    "count": 2,
-   "scraped_at": "2026-11-25T02:49:10+00:00"
+   "scraped_at": "2026-11-25T04:57:07+00:00"
   }
  },
  "items": [
@@ -29,7 +30,7 @@
    "instamart": {
     "price": 22,
     "unit": "1 Piece",
-    "mrp": 24
+    "mrp": 28
    }
   },
   {
@@ -40,7 +41,7 @@
    "instamart": {
     "price": 23,
     "unit": "1 Piece",
-    "mrp": 25
+    "mrp": 29
    }
   }
  ]
