@@ -1,13 +1,12 @@
 {
  "sample": false,
- "updated_at": "2026-11-25T08:55:09+00:00",
+ "updated_at": "2026-11-25T10:49:55+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null,
-   "blocked": true
+   "scraped_at": null
   },
   "blinkit": {
    "ok": false,
