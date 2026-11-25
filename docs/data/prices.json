@@ -1,12 +1,13 @@
 {
  "sample": false,
- "updated_at": "2026-11-25T14:53:21+00:00",
+ "updated_at": "2026-11-25T16:57:01+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null
+   "scraped_at": null,
+   "blocked": true
   },
   "blinkit": {
    "ok": false,
@@ -15,32 +16,60 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-25T04:57:07+00:00"
+   "ok": true,
+   "count": 4,
+   "scraped_at": "2026-11-25T16:57:01+00:00"
   }
  },
  "items": [
   {
-   "name": "Banana Flower",
+   "name": "Asparagus",
    "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 22,
-    "unit": "1 Piece",
-    "mrp": 28
+    "price": 49,
+    "unit": "100 g",
+    "unit_price": 490.0,
+    "unit_label": "kg",
+    "mrp": 58
    }
   },
   {
-   "name": "Banana Stem",
+   "name": "Capsicum Tricolour",
    "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 23,
-    "unit": "1 Piece",
-    "mrp": 29
+    "price": 111,
+    "unit": "3 Pieces",
+    "mrp": 134
+   }
+  },
+  {
+   "name": "Oyster Mushroom Fresh",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 117,
+    "unit": "200 g",
+    "unit_price": 585.0,
+    "unit_label": "kg",
+    "mrp": 141
+   }
+  },
+  {
+   "name": "Switch",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 29,
+    "unit": "100 g",
+    "unit_price": 290.0,
+    "unit_label": "kg",
+    "mrp": 44
    }
   }
  ]
