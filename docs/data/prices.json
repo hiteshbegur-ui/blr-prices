@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-26T10:50:36+00:00",
+ "updated_at": "2026-11-26T12:58:19+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -16,8 +16,8 @@
    "blocked": true
   },
   "instamart": {
-   "ok": true,
-   "count": 2,
+   "ok": false,
+   "count": 0,
    "scraped_at": "2026-11-26T10:50:36+00:00"
   }
  },
