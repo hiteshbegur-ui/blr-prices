@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-26T02:47:00+00:00",
+ "updated_at": "2026-11-26T04:59:34+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -17,8 +17,8 @@
   },
   "instamart": {
    "ok": true,
-   "count": 3,
-   "scraped_at": "2026-11-26T02:47:00+00:00"
+   "count": 2,
+   "scraped_at": "2026-11-26T04:59:34+00:00"
   }
  },
  "items": [
@@ -30,18 +30,7 @@
    "instamart": {
     "price": 23,
     "unit": "1 Piece",
-    "mrp": 25
-   }
-  },
-  {
-   "name": "Kiran Watermelon",
-   "subcategory": "Vegetables",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 176,
-    "unit": null,
-    "mrp": 215
+    "mrp": 29
    }
   },
   {
