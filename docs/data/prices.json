@@ -1,12 +1,13 @@
 {
  "sample": false,
- "updated_at": "2026-11-26T08:53:28+00:00",
+ "updated_at": "2026-11-26T10:50:36+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null
+   "scraped_at": null,
+   "blocked": true
   },
   "blinkit": {
    "ok": false,
@@ -15,9 +16,9 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-26T04:59:34+00:00"
+   "ok": true,
+   "count": 2,
+   "scraped_at": "2026-11-26T10:50:36+00:00"
   }
  },
  "items": [
@@ -33,16 +34,16 @@
    }
   },
   {
-   "name": "Switch",
+   "name": "Oyster Mushroom Fresh",
    "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 79,
-    "unit": "180 g",
-    "unit_price": 438.9,
+    "price": 117,
+    "unit": "200 g",
+    "unit_price": 585.0,
     "unit_label": "kg",
-    "mrp": 111
+    "mrp": 146
    }
   }
  ]
