@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-26T00:47:41+00:00",
+ "updated_at": "2026-11-26T02:47:00+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -16,141 +16,45 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-25T18:39:41+00:00"
+   "ok": true,
+   "count": 3,
+   "scraped_at": "2026-11-26T02:47:00+00:00"
   }
  },
  "items": [
   {
-   "name": "Bhoomi Farms Organic Bottle Gourd",
-   "subcategory": "Premium Produce",
+   "name": "Banana Flower",
+   "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 46,
+    "price": 23,
     "unit": "1 Piece",
-    "mrp": 58
+    "mrp": 25
    }
   },
   {
-   "name": "Bhoomi Farms Organic Green Beans",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 54,
-    "unit": "250 g",
-    "unit_price": 216.0,
-    "unit_label": "kg",
-    "mrp": 68
-   }
-  },
-  {
-   "name": "Bhoomi Farms Organic Sweet Potato",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 69,
-    "unit": "480 g",
-    "unit_price": 143.8,
-    "unit_label": "kg",
-    "mrp": 86
-   }
-  },
-  {
-   "name": "Bhoomi Farms Organic Yellow Pumpkin Portion",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 55,
-    "unit": "1 Piece",
-    "mrp": 69
-   }
-  },
-  {
-   "name": "Bhoomi Farms Organically Grown Ladies Finger",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 37,
-    "unit": "1 Pack",
-    "mrp": 46
-   }
-  },
-  {
-   "name": "Pandan Leaves By Origin Fresh",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 49,
-    "unit": "1 Bunch",
-    "mrp": 61
-   }
-  },
-  {
-   "name": "Pluckk Ginger",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 99,
-    "unit": "200 g",
-    "unit_price": 495.0,
-    "unit_label": "kg",
-    "mrp": 124
-   }
-  },
-  {
-   "name": "Pluckk Lemon",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 72,
-    "unit": "200 g",
-    "unit_price": 360.0,
-    "unit_label": "kg",
-    "mrp": 90
-   }
-  },
-  {
-   "name": "Superplum Premium Pomegranate",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 161,
-    "unit": "2 Pieces",
-    "mrp": 201
-   }
-  },
-  {
-   "name": "Switch",
-   "subcategory": "Premium Produce",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 45,
-    "unit": "1 Piece",
-    "mrp": 69
-   }
-  },
-  {
-   "name": "Yam Portion",
+   "name": "Kiran Watermelon",
    "subcategory": "Vegetables",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 150,
-    "unit": "250 g x 2",
-    "unit_price": 300.0,
+    "price": 176,
+    "unit": null,
+    "mrp": 215
+   }
+  },
+  {
+   "name": "Switch",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 79,
+    "unit": "180 g",
+    "unit_price": 438.9,
     "unit_label": "kg",
-    "mrp": 180
+    "mrp": 111
    }
   }
  ]
