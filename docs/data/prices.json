@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-26T18:44:30+00:00",
+ "updated_at": "2026-11-26T20:43:00+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -16,34 +16,517 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-26T10:50:36+00:00"
+   "ok": true,
+   "count": 52,
+   "scraped_at": "2026-11-26T20:43:00+00:00"
   }
  },
  "items": [
   {
-   "name": "Banana Flower",
-   "subcategory": "Exotics",
+   "name": "Alphonso Mango Pre Order Pack",
+   "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 23,
-    "unit": "1 Piece",
-    "mrp": 29
+    "price": 400,
+    "unit": "6 Pieces"
    }
   },
   {
-   "name": "Oyster Mushroom Fresh",
-   "subcategory": "Exotics",
+   "name": "Baby Banana",
+   "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 117,
-    "unit": "200 g",
-    "unit_price": 585.0,
+    "price": 33,
+    "unit": "4 Pieces",
+    "mrp": 39
+   }
+  },
+  {
+   "name": "Baby Green Kiwi",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 159,
+    "unit": "4 Pieces",
+    "mrp": 194
+   }
+  },
+  {
+   "name": "Beauty Green Pear",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 156,
+    "unit": "2 Pieces",
+    "mrp": 190
+   }
+  },
+  {
+   "name": "California Hass Regular Avocado",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 96,
+    "unit": null,
+    "mrp": 115
+   }
+  },
+  {
+   "name": "Crunchy Shimla Apple Mini Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 55,
+    "unit": "1 Piece"
+   }
+  },
+  {
+   "name": "Diced Papaya",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 66,
+    "unit": "175 g",
+    "unit_price": 377.1,
     "unit_label": "kg",
-    "mrp": 146
+    "mrp": 78
+   }
+  },
+  {
+   "name": "Dried Apricots",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 308,
+    "unit": "200 g",
+    "unit_price": 1540.0,
+    "unit_label": "kg",
+    "mrp": 385
+   }
+  },
+  {
+   "name": "Farm-Pik Indian Cherry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 200,
+    "unit": "200 g",
+    "unit_price": 1000.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Get Veggies Shimla Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 200,
+    "unit": "500 g",
+    "unit_price": 400.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Green Kiwi",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 116,
+    "unit": "3 Pieces",
+    "mrp": 140
+   }
+  },
+  {
+   "name": "Ice Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 154,
+    "unit": "200 g",
+    "unit_price": 770.0,
+    "unit_label": "kg",
+    "mrp": 188
+   }
+  },
+  {
+   "name": "Imported Avocado - Tanzania",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 99,
+    "unit": "1 Piece",
+    "mrp": 119
+   }
+  },
+  {
+   "name": "Imported Cherry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 198,
+    "unit": "100 g",
+    "unit_price": 1980.0,
+    "unit_label": "kg",
+    "mrp": 243
+   }
+  },
+  {
+   "name": "Imported Crimson Red Grapes",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 163,
+    "unit": "250 g",
+    "unit_price": 652.0,
+    "unit_label": "kg",
+    "mrp": 199
+   }
+  },
+  {
+   "name": "Imported Plum",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 98,
+    "unit": "250 g",
+    "unit_price": 392.0,
+    "unit_label": "kg",
+    "mrp": 118
+   }
+  },
+  {
+   "name": "Imported Red Globe Grapes",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 116,
+    "unit": "250 g",
+    "unit_price": 464.0,
+    "unit_label": "kg",
+    "mrp": 140
+   }
+  },
+  {
+   "name": "Imported Royal Gala Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 57,
+    "unit": "1 Piece",
+    "mrp": 66
+   }
+  },
+  {
+   "name": "Indian Raspberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 198,
+    "unit": "80 g",
+    "unit_price": 2475.0,
+    "unit_label": "kg",
+    "mrp": 243
+   }
+  },
+  {
+   "name": "Karpooravalli Banana",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 39,
+    "unit": "4 Pieces",
+    "mrp": 45
+   }
+  },
+  {
+   "name": "Kinnaur Apple Large",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 108,
+    "unit": "2 Pieces",
+    "mrp": 130
+   }
+  },
+  {
+   "name": "Mahabaleshwar Cape Gooseberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 87,
+    "unit": "100 g",
+    "unit_price": 870.0,
+    "unit_label": "kg",
+    "mrp": 104
+   }
+  },
+  {
+   "name": "Mini Red Flesh Dragon Fruit",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 101,
+    "unit": "2 Pieces",
+    "mrp": 121
+   }
+  },
+  {
+   "name": "Muscat Shine Green Grapes",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 133,
+    "unit": "1 Pack",
+    "mrp": 161
+   }
+  },
+  {
+   "name": "Nagpur Orange Mini Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 44,
+    "unit": "200 g",
+    "unit_price": 220.0,
+    "unit_label": "kg",
+    "mrp": 55
+   }
+  },
+  {
+   "name": "Ooty Strawberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 170,
+    "unit": "180 g",
+    "unit_price": 944.4,
+    "unit_label": "kg",
+    "mrp": 208
+   }
+  },
+  {
+   "name": "Passion Fruit",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 96,
+    "unit": "250 g",
+    "unit_price": 384.0,
+    "unit_label": "kg",
+    "mrp": 115
+   }
+  },
+  {
+   "name": "Pineapple Slices",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 91,
+    "unit": "175 g",
+    "unit_price": 520.0,
+    "unit_label": "kg",
+    "mrp": 109
+   }
+  },
+  {
+   "name": "Pluckk Pineapple Peeled",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 122,
+    "unit": "1 Piece",
+    "mrp": 152
+   }
+  },
+  {
+   "name": "Pomegranate",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 106,
+    "unit": "2 Pieces",
+    "mrp": 128
+   }
+  },
+  {
+   "name": "Premium Strawberry By Oh Fruits",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 299,
+    "unit": "160 g",
+    "unit_price": 1868.8,
+    "unit_label": "kg",
+    "mrp": 374
+   }
+  },
+  {
+   "name": "Red Flesh Dragon Fruit Indian",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 88,
+    "unit": "1 Piece",
+    "mrp": 105
+   }
+  },
+  {
+   "name": "Sam Agri Peeled Pomegranate",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 79,
+    "unit": "100 g",
+    "unit_price": 790.0,
+    "unit_label": "kg",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Small Tender Coconut",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 156,
+    "unit": "1 Piece x 3",
+    "mrp": 195
+   }
+  },
+  {
+   "name": "Snacky Indian Apple Mini Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 55,
+    "unit": "2 Pieces"
+   }
+  },
+  {
+   "name": "Sun Melon",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 60,
+    "unit": "1 Piece",
+    "mrp": 70
+   }
+  },
+  {
+   "name": "Superplum Indian Shimla Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 74,
+    "unit": "2 Pieces",
+    "mrp": 93
+   }
+  },
+  {
+   "name": "Superplum Nagpur Orange",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 89,
+    "unit": "500 g",
+    "unit_price": 178.0,
+    "unit_label": "kg",
+    "mrp": 111
+   }
+  },
+  {
+   "name": "Switch",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 115,
+    "unit": "1 Piece",
+    "mrp": 144
+   }
+  },
+  {
+   "name": "Valencia Orange",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 188,
+    "unit": "2 Pieces x 2",
+    "mrp": 228
+   }
+  },
+  {
+   "name": "Very Berry Fruits Frozen Blueberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 270,
+    "unit": "200 g",
+    "unit_price": 1350.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Westfalia Guacamole Spiced",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 171,
+    "unit": "95 g",
+    "unit_price": 1800.0,
+    "unit_label": "kg",
+    "mrp": 209
+   }
+  },
+  {
+   "name": "Zespri Kiwi Green",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 113,
+    "unit": "2 Pieces",
+    "mrp": 136
    }
   }
  ]
