@@ -1,12 +1,13 @@
 {
  "sample": false,
- "updated_at": "2026-11-27T14:45:19+00:00",
+ "updated_at": "2026-11-27T16:55:53+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null
+   "scraped_at": null,
+   "blocked": true
   },
   "blinkit": {
    "ok": false,
@@ -15,43 +16,69 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-27T08:53:37+00:00"
+   "ok": true,
+   "count": 5,
+   "scraped_at": "2026-11-27T16:55:53+00:00"
   }
  },
  "items": [
   {
-   "name": "Bhoomi Farms Organic Bottle Gourd",
-   "subcategory": "Premium Produce",
+   "name": "Asparagus",
+   "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 46,
-    "unit": "1 Piece",
+    "price": 49,
+    "unit": "100 g",
+    "unit_price": 490.0,
+    "unit_label": "kg",
     "mrp": 58
    }
   },
   {
-   "name": "Bhoomi Farms Organic Yellow Pumpkin Portion",
-   "subcategory": "Premium Produce",
+   "name": "Capsicum Tricolour",
+   "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 55,
-    "unit": "1 Piece",
-    "mrp": 69
+    "price": 111,
+    "unit": "3 Pieces",
+    "mrp": 134
    }
   },
   {
-   "name": "Bhoomi Farms Organically Grown Ladies Finger",
-   "subcategory": "Premium Produce",
+   "name": "Kiran Watermelon",
+   "subcategory": "Vegetables",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 37,
-    "unit": "1 Pack",
-    "mrp": 46
+    "price": 176,
+    "unit": null,
+    "mrp": 215
+   }
+  },
+  {
+   "name": "Raw Turmeric",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 34,
+    "unit": "100 g",
+    "unit_price": 340.0,
+    "unit_label": "kg",
+    "mrp": 39
+   }
+  },
+  {
+   "name": "Switch",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 54,
+    "unit": "1 Piece",
+    "mrp": 69
    }
   }
  ]
