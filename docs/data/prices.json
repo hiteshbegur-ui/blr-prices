@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-27T00:52:22+00:00",
+ "updated_at": "2026-11-27T02:47:56+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -17,33 +17,1305 @@
   },
   "instamart": {
    "ok": true,
-   "count": 2,
-   "scraped_at": "2026-11-27T00:52:22+00:00"
+   "count": 123,
+   "scraped_at": "2026-11-27T02:47:56+00:00"
   }
  },
  "items": [
   {
-   "name": "Banana Flower",
+   "name": "Alphonso Mango Pre Order Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 400,
+    "unit": "6 Pieces"
+   }
+  },
+  {
+   "name": "Andros Cane Juice Lime And Mint",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 88,
+    "unit": "200 ml",
+    "unit_price": 440.0,
+    "unit_label": "l",
+    "mrp": 110
+   }
+  },
+  {
+   "name": "Apple Fuji",
    "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 23,
-    "unit": "1 Piece",
-    "mrp": 25
+    "price": 133,
+    "unit": "2 Pieces",
+    "mrp": 161
    }
   },
   {
-   "name": "Oyster Mushroom Fresh",
+   "name": "Ash Gourd Portion",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 43,
+    "unit": "1 Piece",
+    "mrp": 50
+   }
+  },
+  {
+   "name": "Avarekai Peeled",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 109,
+    "unit": "250 g",
+    "unit_price": 436.0,
+    "unit_label": "kg",
+    "mrp": 131
+   }
+  },
+  {
+   "name": "Avocado Mini Gems",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 200,
+    "unit": "1 Piece"
+   }
+  },
+  {
+   "name": "Baby Green Kiwi",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 159,
+    "unit": "4 Pieces",
+    "mrp": 194
+   }
+  },
+  {
+   "name": "Beauty Green Pear",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 156,
+    "unit": "2 Pieces",
+    "mrp": 190
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Baby Bottle Gourd",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 54,
+    "unit": "350 g",
+    "unit_price": 154.3,
+    "unit_label": "kg",
+    "mrp": 68
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Bottle Gourd",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 46,
+    "unit": "1 Piece",
+    "mrp": 58
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Brown Coconut",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 72,
+    "unit": "1 Pack",
+    "mrp": 90
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Chilli",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 22,
+    "unit": "90 g",
+    "unit_price": 244.4,
+    "unit_label": "kg",
+    "mrp": 28
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Onion",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 78,
+    "unit": "470 g",
+    "unit_price": 166.0,
+    "unit_label": "kg",
+    "mrp": 98
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Ooty Beetroot",
+   "subcategory": "Organic",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 65,
+    "unit": "500 g",
+    "unit_price": 130.0,
+    "unit_label": "kg",
+    "mrp": 81
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Sweet Potato",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 69,
+    "unit": "480 g",
+    "unit_price": 143.8,
+    "unit_label": "kg",
+    "mrp": 86
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organic Yellow Pumpkin Portion",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 55,
+    "unit": "1 Piece",
+    "mrp": 69
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organically Grown Chow Chow",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 49,
+    "unit": "480 g",
+    "unit_price": 102.1,
+    "unit_label": "kg",
+    "mrp": 61
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organically Grown Coriander",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 43,
+    "unit": "100 g",
+    "unit_price": 430.0,
+    "unit_label": "kg",
+    "mrp": 54
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organically Grown Ladies Finger",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 37,
+    "unit": "1 Pack",
+    "mrp": 46
+   }
+  },
+  {
+   "name": "Bhoomi Farms Organically Grown Ridge Gourd",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 68,
+    "unit": "450 g",
+    "unit_price": 151.1,
+    "unit_label": "kg",
+    "mrp": 85
+   }
+  },
+  {
+   "name": "Black Jumbo Grapes Krishna",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 79,
+    "unit": "200 g",
+    "unit_price": 395.0,
+    "unit_label": "kg",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Blood Orange",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 118,
+    "unit": "2 Pieces",
+    "mrp": 143
+   }
+  },
+  {
+   "name": "Brown Chana Sprouts",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 54,
+    "unit": "200 g",
+    "unit_price": 270.0,
+    "unit_label": "kg",
+    "mrp": 63
+   }
+  },
+  {
+   "name": "Crunchy Shimla Apple Mini Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 55,
+    "unit": "1 Piece"
+   }
+  },
+  {
+   "name": "Diced Muskmelon",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 72,
+    "unit": "175 g",
+    "unit_price": 411.4,
+    "unit_label": "kg",
+    "mrp": 85
+   }
+  },
+  {
+   "name": "Diced Papaya",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 66,
+    "unit": "175 g",
+    "unit_price": 377.1,
+    "unit_label": "kg",
+    "mrp": 78
+   }
+  },
+  {
+   "name": "Dried Apricots",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 308,
+    "unit": "200 g",
+    "unit_price": 1540.0,
+    "unit_label": "kg",
+    "mrp": 385
+   }
+  },
+  {
+   "name": "Farm-Pik Indian Cherry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 200,
+    "unit": "200 g",
+    "unit_price": 1000.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Fresh Green Peas Peeled By Urban Harvest",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 142,
+    "unit": "200 g",
+    "unit_price": 710.0,
+    "unit_label": "kg",
+    "mrp": 173
+   }
+  },
+  {
+   "name": "Freshcon Boiled Green Moong Whole",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 62,
+    "unit": "250 g",
+    "unit_price": 248.0,
+    "unit_label": "kg",
+    "mrp": 95
+   }
+  },
+  {
+   "name": "Freshcon Boiled Matki",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 55,
+    "unit": "250 g",
+    "unit_price": 220.0,
+    "unit_label": "kg",
+    "mrp": 85
+   }
+  },
+  {
+   "name": "Freshcon Boiled Salad Mix",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 87,
+    "unit": "200 g",
+    "unit_price": 435.0,
+    "unit_label": "kg",
+    "mrp": 95
+   }
+  },
+  {
+   "name": "Freshcon Boiled Sweetcorn Kernels",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 72,
+    "unit": "285 g",
+    "unit_price": 252.6,
+    "unit_label": "kg",
+    "mrp": 80
+   }
+  },
+  {
+   "name": "Freshcon Boiled White Vatana",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 56,
+    "unit": "250 g",
+    "unit_price": 224.0,
+    "unit_label": "kg",
+    "mrp": 80
+   }
+  },
+  {
+   "name": "Freshcon Cooked Chickpeas",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 160,
+    "unit": "250 g x 2",
+    "unit_price": 320.0,
+    "unit_label": "kg",
+    "mrp": 180
+   }
+  },
+  {
+   "name": "Freshcon Cooked Kidney Beans",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 160,
+    "unit": "250 g x 2",
+    "unit_price": 320.0,
+    "unit_label": "kg",
+    "mrp": 180
+   }
+  },
+  {
+   "name": "Fruit Chat Mix",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 123,
+    "unit": "250 g",
+    "unit_price": 492.0,
+    "unit_label": "kg",
+    "mrp": 149
+   }
+  },
+  {
+   "name": "Get Veggies Shimla Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 200,
+    "unit": "500 g",
+    "unit_price": 400.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Ice Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 154,
+    "unit": "200 g",
+    "unit_price": 770.0,
+    "unit_label": "kg",
+    "mrp": 188
+   }
+  },
+  {
+   "name": "Imported Grapefruit",
    "subcategory": "Exotics",
    "zepto": null,
    "blinkit": null,
    "instamart": {
     "price": 117,
-    "unit": "200 g",
-    "unit_price": 585.0,
-    "unit_label": "kg",
+    "unit": "1 Piece",
     "mrp": 141
+   }
+  },
+  {
+   "name": "Indian Raspberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 198,
+    "unit": "80 g",
+    "unit_price": 2475.0,
+    "unit_label": "kg",
+    "mrp": 243
+   }
+  },
+  {
+   "name": "Jalapeno Green By Origin Fresh",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 109,
+    "unit": "200 g",
+    "unit_price": 545.0,
+    "unit_label": "kg",
+    "mrp": 136
+   }
+  },
+  {
+   "name": "Kale Leaf",
+   "subcategory": "Leafy & Herbs",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 19,
+    "unit": "100 g",
+    "unit_price": 190.0,
+    "unit_label": "kg",
+    "mrp": 20
+   }
+  },
+  {
+   "name": "Kimia Dates",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 147,
+    "unit": "200 g",
+    "unit_price": 735.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Kulekhara Saag",
+   "subcategory": "Leafy & Herbs",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 47,
+    "unit": "1 Bunch",
+    "mrp": 55
+   }
+  },
+  {
+   "name": "Lemon Imported",
+   "subcategory": "Leafy & Herbs",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 192,
+    "unit": "2 Pieces x 2",
+    "mrp": 232
+   }
+  },
+  {
+   "name": "Mahabaleshwar Cape Gooseberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 87,
+    "unit": "100 g",
+    "unit_price": 870.0,
+    "unit_label": "kg",
+    "mrp": 104
+   }
+  },
+  {
+   "name": "Mini Red Flesh Dragon Fruit",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 101,
+    "unit": "2 Pieces",
+    "mrp": 121
+   }
+  },
+  {
+   "name": "Nagpur Orange Mini Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 44,
+    "unit": "200 g",
+    "unit_price": 220.0,
+    "unit_label": "kg",
+    "mrp": 55
+   }
+  },
+  {
+   "name": "Natural Immunity Booster Pack",
+   "subcategory": "Leafy & Herbs",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 112,
+    "unit": null,
+    "mrp": 137
+   }
+  },
+  {
+   "name": "Nectr Strawberry",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 199,
+    "unit": "180 g",
+    "unit_price": 1105.6,
+    "unit_label": "kg",
+    "mrp": 261
+   }
+  },
+  {
+   "name": "Noice Litchi Juice",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 56,
+    "unit": "200 ml",
+    "unit_price": 280.0,
+    "unit_label": "l",
+    "mrp": 89
+   }
+  },
+  {
+   "name": "Noice Pomegranate Juice",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 402,
+    "unit": "200 ml x 6",
+    "unit_price": 335.0,
+    "unit_label": "l",
+    "mrp": 594
+   }
+  },
+  {
+   "name": "Ooty Blackberry",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 281,
+    "unit": "80 g",
+    "unit_price": 3512.5,
+    "unit_label": "kg",
+    "mrp": 346
+   }
+  },
+  {
+   "name": "Packham Pear - South Africa",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 132,
+    "unit": "2 Pieces",
+    "mrp": 160
+   }
+  },
+  {
+   "name": "Pandan Leaves By Origin Fresh",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 49,
+    "unit": "1 Bunch",
+    "mrp": 61
+   }
+  },
+  {
+   "name": "Pluckk Abc Juice - No Added Sugar | No Added Preservatives",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 94,
+    "unit": "130 ml",
+    "unit_price": 723.1,
+    "unit_label": "l",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Pluckk Coconut Grated",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 96,
+    "unit": "200 g",
+    "unit_price": 480.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Pluckk Cold Pressed Extracted Chilli Guava Juice",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 104,
+    "unit": "250 ml",
+    "unit_price": 416.0,
+    "unit_label": "l",
+    "mrp": 109
+   }
+  },
+  {
+   "name": "Pluckk Daily Defense Sugarcane Amla Ginger Juice",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 73,
+    "unit": "150 ml",
+    "unit_price": 486.7,
+    "unit_label": "l",
+    "mrp": 86
+   }
+  },
+  {
+   "name": "Pluckk Diy Chip And Dip Kit",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 559,
+    "unit": "1 Pack"
+   }
+  },
+  {
+   "name": "Pluckk Diy Chocolate Making Kit",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 804,
+    "unit": "1 Pack"
+   }
+  },
+  {
+   "name": "Pluckk Diy Cocktail Hour Kit",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 290,
+    "unit": "1 Pack"
+   }
+  },
+  {
+   "name": "Pluckk Garlic Peeled",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 70,
+    "unit": "100 g",
+    "unit_price": 700.0,
+    "unit_label": "kg",
+    "mrp": 88
+   }
+  },
+  {
+   "name": "Pluckk Haemo Boost Pineapple Spinach Lemon Juice",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 83,
+    "unit": "150 ml",
+    "unit_price": 553.3,
+    "unit_label": "l",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Pluckk Mixed Sprouts",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 40,
+    "unit": "150 g",
+    "unit_price": 266.7,
+    "unit_label": "kg",
+    "mrp": 50
+   }
+  },
+  {
+   "name": "Pluckk Organic Ginger",
+   "subcategory": "Organic",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 93,
+    "unit": "100 g",
+    "unit_price": 930.0,
+    "unit_label": "kg",
+    "mrp": 116
+   }
+  },
+  {
+   "name": "Pluckk Organic Lemon",
+   "subcategory": "Organic",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 74,
+    "unit": "200 g",
+    "unit_price": 370.0,
+    "unit_label": "kg",
+    "mrp": 93
+   }
+  },
+  {
+   "name": "Pluckk Peeled Sweet Corn",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 34,
+    "unit": "200 g",
+    "unit_price": 170.0,
+    "unit_label": "kg",
+    "mrp": 43
+   }
+  },
+  {
+   "name": "Pluckk Pineapple Peeled",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 122,
+    "unit": "1 Piece",
+    "mrp": 152
+   }
+  },
+  {
+   "name": "Pluckk Pineapple Slice",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 86,
+    "unit": "200 g",
+    "unit_price": 430.0,
+    "unit_label": "kg",
+    "mrp": 107
+   }
+  },
+  {
+   "name": "Pluckk Pumpkin Sliced",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 34,
+    "unit": "250 g",
+    "unit_price": 136.0,
+    "unit_label": "kg",
+    "mrp": 43
+   }
+  },
+  {
+   "name": "Pluckk Raw Mango Sliced",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 116,
+    "unit": "200 g",
+    "unit_price": 580.0,
+    "unit_label": "kg",
+    "mrp": 145
+   }
+  },
+  {
+   "name": "Pluckk Recovery Punch Sugarcane Tumeric Ginger Juice",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 83,
+    "unit": "150 ml",
+    "unit_price": 553.3,
+    "unit_label": "l",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Premium Chandramukhi Potato By Origin Fresh",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 39,
+    "unit": "250 g",
+    "unit_price": 156.0,
+    "unit_label": "kg",
+    "mrp": 49
+   }
+  },
+  {
+   "name": "Premium Raspberry By Oh Fruits",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 269,
+    "unit": "80 g",
+    "unit_price": 3362.5,
+    "unit_label": "kg",
+    "mrp": 336
+   }
+  },
+  {
+   "name": "Premium Strawberry By Oh Fruits",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 279,
+    "unit": "160 g",
+    "unit_price": 1743.8,
+    "unit_label": "kg",
+    "mrp": 349
+   }
+  },
+  {
+   "name": "Pulav Mix By Urban Harvest",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 94,
+    "unit": "250 g",
+    "unit_price": 376.0,
+    "unit_label": "kg",
+    "mrp": 113
+   }
+  },
+  {
+   "name": "Red Flesh Dragon Fruit Indian",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 88,
+    "unit": "1 Piece",
+    "mrp": 105
+   }
+  },
+  {
+   "name": "Rocket Leaves",
+   "subcategory": "Leafy & Herbs",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 62,
+    "unit": "75 g",
+    "unit_price": 826.7,
+    "unit_label": "kg",
+    "mrp": 73
+   }
+  },
+  {
+   "name": "Sam Agri Peeled Pomegranate",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 79,
+    "unit": "100 g",
+    "unit_price": 790.0,
+    "unit_label": "kg",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Sambar Mix By Urban Harvest",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 67,
+    "unit": "250 g",
+    "unit_price": 268.0,
+    "unit_label": "kg",
+    "mrp": 79
+   }
+  },
+  {
+   "name": "Small Tender Coconut",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 52,
+    "unit": "1 Piece",
+    "mrp": 65
+   }
+  },
+  {
+   "name": "Sugar Cane Stem",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 56,
+    "unit": "2 Pieces",
+    "mrp": 65
+   }
+  },
+  {
+   "name": "Sugarcane Diced By Urban Harvest",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 52,
+    "unit": "175 g",
+    "unit_price": 297.1,
+    "unit_label": "kg",
+    "mrp": 61
+   }
+  },
+  {
+   "name": "Sun Melon",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 60,
+    "unit": "1 Piece",
+    "mrp": 70
+   }
+  },
+  {
+   "name": "Superplum Indian Shimla Apple",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 74,
+    "unit": "2 Pieces",
+    "mrp": 93
+   }
+  },
+  {
+   "name": "Superplum Nagpur Orange",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 89,
+    "unit": "500 g",
+    "unit_price": 178.0,
+    "unit_label": "kg",
+    "mrp": 111
+   }
+  },
+  {
+   "name": "Superplum Premium Pomegranate",
+   "subcategory": "Premium Produce",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 161,
+    "unit": "2 Pieces",
+    "mrp": 201
+   }
+  },
+  {
+   "name": "Switch",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 115,
+    "unit": "1 Piece",
+    "mrp": 144
+   }
+  },
+  {
+   "name": "Tadaa Boiled Sweet Corn Cob",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 46,
+    "unit": "1 Piece",
+    "mrp": 80
+   }
+  },
+  {
+   "name": "Tadaa Fiery Schezwan Sweet Corn Kernels",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 12,
+    "unit": "125 g",
+    "unit_price": 96.0,
+    "unit_label": "kg",
+    "mrp": 60
+   }
+  },
+  {
+   "name": "Tadaa Peri Peri Sweet Corn Kernels",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 49,
+    "unit": "225 g",
+    "unit_price": 217.8,
+    "unit_label": "kg",
+    "mrp": 99
+   }
+  },
+  {
+   "name": "Tadaa Pickle Punch Sweet Corn Kernels",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 12,
+    "unit": "125 g",
+    "unit_price": 96.0,
+    "unit_label": "kg",
+    "mrp": 60
+   }
+  },
+  {
+   "name": "Tadaa Sour Cream & Onion Sweet Corn Kernels",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 12,
+    "unit": "125 g",
+    "unit_price": 96.0,
+    "unit_label": "kg",
+    "mrp": 60
+   }
+  },
+  {
+   "name": "Tadaa Sweet Corn Cob Boiled",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 80,
+    "unit": "1 Pack",
+    "mrp": 140
+   }
+  },
+  {
+   "name": "Tadaa Sweet Corn Kernels Party Pack",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 102,
+    "unit": "725 g",
+    "unit_price": 140.7,
+    "unit_label": "kg",
+    "mrp": 199
+   }
+  },
+  {
+   "name": "Tadaa Sweet Wasabi Heat Corn Kernels",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 12,
+    "unit": "125 g",
+    "unit_price": 96.0,
+    "unit_label": "kg",
+    "mrp": 60
+   }
+  },
+  {
+   "name": "Urban Platter Ready To Use Chickpeas In Brine",
+   "subcategory": "Cuts & Sprouts",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 150,
+    "unit": "400 g",
+    "unit_price": 375.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Very Berry Fruits Frozen Blueberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 270,
+    "unit": "200 g",
+    "unit_price": 1350.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Water Chestnut",
+   "subcategory": "Exotics",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 60,
+    "unit": "200 g",
+    "unit_price": 300.0,
+    "unit_label": "kg",
+    "mrp": 70
+   }
+  },
+  {
+   "name": "Wellness Juice Combo",
+   "subcategory": "Leafy & Herbs",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 125,
+    "unit": null,
+    "mrp": 155
+   }
+  },
+  {
+   "name": "Westfalia Guacamole Classic",
+   "subcategory": "Cut Fruits & Juices",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 171,
+    "unit": "95 g",
+    "unit_price": 1800.0,
+    "unit_label": "kg",
+    "mrp": 209
+   }
+  },
+  {
+   "name": "Westfalia Guacamole Spiced",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 171,
+    "unit": "95 g",
+    "unit_price": 1800.0,
+    "unit_label": "kg",
+    "mrp": 209
+   }
+  },
+  {
+   "name": "White Flesh Dragon Fruit Imported",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 106,
+    "unit": "1 Piece",
+    "mrp": 128
+   }
+  },
+  {
+   "name": "Zespri Kiwi Green",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 113,
+    "unit": "2 Pieces",
+    "mrp": 136
    }
   }
  ]
