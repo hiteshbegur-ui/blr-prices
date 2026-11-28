@@ -1,12 +1,13 @@
 {
  "sample": false,
- "updated_at": "2026-11-28T10:41:56+00:00",
+ "updated_at": "2026-11-28T12:45:04+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
    "ok": false,
    "count": 0,
-   "scraped_at": null
+   "scraped_at": null,
+   "blocked": true
   },
   "blinkit": {
    "ok": false,
@@ -15,8 +16,8 @@
    "blocked": true
   },
   "instamart": {
-   "ok": true,
-   "count": 37,
+   "ok": false,
+   "count": 0,
    "scraped_at": "2026-11-28T10:41:56+00:00"
   }
  },
