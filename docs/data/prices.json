@@ -1,6 +1,6 @@
 {
  "sample": false,
- "updated_at": "2026-11-28T04:50:39+00:00",
+ "updated_at": "2026-11-28T06:53:39+00:00",
  "pincode": "560034",
  "platforms": {
   "zepto": {
@@ -16,12 +16,68 @@
    "blocked": true
   },
   "instamart": {
-   "ok": false,
-   "count": 0,
-   "scraped_at": "2026-11-28T00:49:01+00:00"
+   "ok": true,
+   "count": 20,
+   "scraped_at": "2026-11-28T06:53:39+00:00"
   }
  },
  "items": [
+  {
+   "name": "Apple Fuji",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 133,
+    "unit": "2 Pieces",
+    "mrp": 166
+   }
+  },
+  {
+   "name": "Apple Kashmiri",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 103,
+    "unit": "2 Pieces",
+    "mrp": 129
+   }
+  },
+  {
+   "name": "Beauty Green Pear",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 156,
+    "unit": "2 Pieces",
+    "mrp": 195
+   }
+  },
+  {
+   "name": "Cherry Tomato",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 44,
+    "unit": "200 g",
+    "unit_price": 220.0,
+    "unit_label": "kg",
+    "mrp": 55
+   }
+  },
+  {
+   "name": "Crunchy Shimla Apple Mini Pack",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 55,
+    "unit": "1 Piece"
+   }
+  },
   {
    "name": "Farm-Pik Indian Cherry",
    "subcategory": "Fruits",
@@ -35,66 +91,161 @@
    }
   },
   {
-   "name": "Oyster Mushroom Fresh",
-   "subcategory": "Exotics",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 83,
-    "unit": "200 g",
-    "unit_price": 415.0,
-    "unit_label": "kg",
-    "mrp": 99
-   }
-  },
-  {
-   "name": "Premium Strawberry By Oh Fruits",
+   "name": "Imported Cherry",
    "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 279,
-    "unit": "160 g",
-    "unit_price": 1743.8,
-    "unit_label": "kg",
-    "mrp": 349
-   }
-  },
-  {
-   "name": "Sam Agri Peeled Pomegranate",
-   "subcategory": "Fruits",
-   "zepto": null,
-   "blinkit": null,
-   "instamart": {
-    "price": 79,
+    "price": 198,
     "unit": "100 g",
-    "unit_price": 790.0,
+    "unit_price": 1980.0,
     "unit_label": "kg",
-    "mrp": 99
+    "mrp": 248
    }
   },
   {
-   "name": "Westfalia Guacamole Spiced",
+   "name": "Indian Raspberry",
    "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 171,
-    "unit": "95 g",
-    "unit_price": 1800.0,
+    "price": 198,
+    "unit": "80 g",
+    "unit_price": 2475.0,
     "unit_label": "kg",
-    "mrp": 209
+    "mrp": 248
    }
   },
   {
-   "name": "White Flesh Dragon Fruit Imported",
+   "name": "Karpooravalli Banana",
    "subcategory": "Fruits",
    "zepto": null,
    "blinkit": null,
    "instamart": {
-    "price": 210,
-    "unit": "1 Piece x 2",
-    "mrp": 256
+    "price": 39,
+    "unit": "4 Pieces",
+    "mrp": 49
+   }
+  },
+  {
+   "name": "Mahabaleshwar Cape Gooseberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 87,
+    "unit": "100 g",
+    "unit_price": 870.0,
+    "unit_label": "kg",
+    "mrp": 109
+   }
+  },
+  {
+   "name": "No Roots, Cleaned Fenugreek",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 33,
+    "unit": "1 Bunch",
+    "mrp": 41
+   }
+  },
+  {
+   "name": "Ooty Strawberry",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 170,
+    "unit": "180 g",
+    "unit_price": 944.4,
+    "unit_label": "kg",
+    "mrp": 213
+   }
+  },
+  {
+   "name": "Passion Fruit",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 96,
+    "unit": "250 g",
+    "unit_price": 384.0,
+    "unit_label": "kg",
+    "mrp": 120
+   }
+  },
+  {
+   "name": "Small Bitter Gourd",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 39,
+    "unit": "250 g",
+    "unit_price": 156.0,
+    "unit_label": "kg",
+    "mrp": 49
+   }
+  },
+  {
+   "name": "Snake Gourd",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 36,
+    "unit": "2 Pieces x 2",
+    "mrp": 48
+   }
+  },
+  {
+   "name": "Superplum Nagpur Orange",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 89,
+    "unit": "500 g",
+    "unit_price": 178.0,
+    "unit_label": "kg",
+    "mrp": 111
+   }
+  },
+  {
+   "name": "Switch",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 29,
+    "unit": "1 Bunch",
+    "mrp": 36
+   }
+  },
+  {
+   "name": "White Jamun",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 46,
+    "unit": "100 g",
+    "unit_price": 460.0,
+    "unit_label": "kg"
+   }
+  },
+  {
+   "name": "Zespri Kiwi Green",
+   "subcategory": "Fruits",
+   "zepto": null,
+   "blinkit": null,
+   "instamart": {
+    "price": 113,
+    "unit": "2 Pieces",
+    "mrp": 141
    }
   }
  ]
